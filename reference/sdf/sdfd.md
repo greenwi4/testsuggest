@@ -1,5 +1,5 @@
 ---
-title: sdfd
+title: adaptiveAcceleration
 deprecated: false
 hidden: false
 metadata:
