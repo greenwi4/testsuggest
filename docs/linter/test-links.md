@@ -5,4 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-here is the broken redirect
+### Broken link checker test
+
+[Test redirect link](/not-a-real-page)
