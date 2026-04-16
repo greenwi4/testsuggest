@@ -7,4 +7,4 @@ metadata:
 ---
 ### Broken link checker test
 
-[Test redirect link](doc:fake-linter)
+[Test redirect case](https://docs.readme.com/linter)
