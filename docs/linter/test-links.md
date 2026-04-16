@@ -1,5 +1,5 @@
 ---
-title: broken link bug
+title: 'broken redirect link bug '
 deprecated: false
 hidden: false
 metadata:
