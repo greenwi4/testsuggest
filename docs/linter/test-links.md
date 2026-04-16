@@ -7,4 +7,4 @@ metadata:
 ---
 ### Broken link checker test
 
-[Test redirect link](/not-a-real-page)
+[Test redirect link](/fake-linter)
