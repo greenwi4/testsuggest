@@ -5,3 +5,4 @@ hidden: false
 metadata:
   robots: index
 ---
+<<glossary:test>>
