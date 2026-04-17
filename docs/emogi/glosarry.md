@@ -6,3 +6,5 @@ metadata:
   robots: index
 ---
 <<glossary:test>>
+
+<<glossary:test>>s
