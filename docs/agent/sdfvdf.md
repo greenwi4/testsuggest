@@ -73,6 +73,7 @@ curl --request POST \
   --url 'https://apisandbox.dev.clover.com/invoicingcheckoutservice/v1/checkouts' \
   --header 'accept: application/json' \
   --header 'content-type: application/json' \
+  --header 'User-Agent: PostmanRuntime/7.44.1' \
   --header 'X-Clover-Merchant-Id: {merchantId}' \
   --data '{
   "pageConfigUuid": "7G9V9DP834ZY2", //Optional for multiple HCO configurations
