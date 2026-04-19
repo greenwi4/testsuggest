@@ -1,5 +1,5 @@
 ---
-title: sdfsfds
+title: 'MDXish engine + MDXish editor '
 deprecated: false
 hidden: false
 metadata:
