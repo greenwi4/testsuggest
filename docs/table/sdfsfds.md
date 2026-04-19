@@ -12,6 +12,7 @@ metadata:
 </tr>
 <tr>
 <td style="text-align: left"></td>
+
 <td style="text-align: left">Visa PAN: 2.2.0: 4000000000002024</td>
 </tr>
 </table>
