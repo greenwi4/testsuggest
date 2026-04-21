@@ -11,8 +11,6 @@ metadata:
 
 <br />
 
+![](https://files.readme.io/8d8ace6cfca54cff4faf344042a2984cd987c83f7f6f81b5bfbce5556fda227b-CleanShot_2026-04-21_at_10.44.352x.png)
 
-<Image src="https://files.readme.io/d3ae24972fd22b75021e79ec4420ee011bcacdf29657881ff9cfa5e2b4ff612d-CleanShot_2026-04-21_at_10.44.352x.png" width="50%" />
-
-
- 
+<br />
