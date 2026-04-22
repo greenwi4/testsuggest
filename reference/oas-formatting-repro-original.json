@@ -23,7 +23,7 @@
           "Formatting Repro"
         ],
         "summary": "Get campaigns",
-        "description": "Get a list of campaigns.\n",
+        "description": "Get a list of campaigns. This is my change!\n",
         "operationId": "GET_campaigns",
         "parameters": [
           {
