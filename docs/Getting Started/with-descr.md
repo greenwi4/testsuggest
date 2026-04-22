@@ -1,5 +1,6 @@
 ---
 title: with descr
+excerpt: test repro branch merge
 deprecated: false
 hidden: false
 metadata:
