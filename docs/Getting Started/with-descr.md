@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 next:
-  description: Repro step next action
+  description: Repro step next action 2
 ---
 
 <Image src="https://files.readme.io/61ef152a8c1b8faf96fe2f90e5c4f1ce411d35f0715a2ff44a0bf025c08e86be-image.png" alt="test" align="center" />
