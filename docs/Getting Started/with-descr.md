@@ -8,8 +8,8 @@ metadata:
 next:
   description: Repro step next action 233
   pages:
-    - slug: with-descr
-      title: with descr
+    - slug: without-descr
+      title: without descr
       type: basic
 ---
 
