@@ -11,9 +11,6 @@ next:
     - slug: without-descr
       title: without descr
       type: basic
-    - slug: sdfsdfsdfs
-      title: sdfsdfsdfs
-      type: basic
 ---
 
 <Image src="https://files.readme.io/61ef152a8c1b8faf96fe2f90e5c4f1ce411d35f0715a2ff44a0bf025c08e86be-image.png" align="center" width="50%" />
