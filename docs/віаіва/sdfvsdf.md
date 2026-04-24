@@ -13,4 +13,6 @@ New endpoints for making changes to Recipes <a class="badge" href="https://docs.
 
 New endpoints for making changes to Recipes <a class="pill pill-refactored" href="https://docs.readme.com/main/docs/refactored-vs-legacy">Refactored</a>
 
+<a class="pill pill-refactored" href="...">Refactored</a> <span class="pill pill-explanation">Explanation</span> <span class="pill pill-reference">Reference</span>
+
 <br />
