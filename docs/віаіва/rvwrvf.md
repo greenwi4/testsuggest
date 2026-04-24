@@ -5,4 +5,4 @@ hidden: false
 metadata:
   robots: index
 ---
-\<Batch\_id>_\<File\_Type>_<Version>.csv 
+<Batch_id>_<File_Type>_<Version>.csv
