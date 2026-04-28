@@ -29,15 +29,9 @@ dsfdsf
 
 ![](https://placehold.co/320x120.png?text=Codex+Enter)
 
-> 📘 some text long waited feature
+> 📘 test
 >
-> ### some text long waited feature
->
-> ### some text long waited feature
->
-> ### some text long waited feature
->
-> messagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessage
+> message
 
 > ✅ test
 >
