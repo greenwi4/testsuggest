@@ -29,7 +29,7 @@ dsfdsf
 
 ![](https://placehold.co/320x120.png?text=Codex+Enter)
 
-> 📘 test
+> 📘 some text long waited feature
 >
 > message
 
