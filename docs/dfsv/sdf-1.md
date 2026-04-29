@@ -5,16 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-<a href="/reference/10x-api-reference"><Banner  
-
-s, see our 10x API reference page."  
-
-
-
- </a>
-
-<br />
-
 Fabric is the extendable kernel at the core of the 10x Platform. It manages the key entities required for any financial product – Products, Parties, Subscriptions, Transactions and Balances.​ It is an immutable, secure and auditable interface that supports both synchronous and asynchronous processing.​
 
 The key entities can be extended using attributes to hold client-defined data alongside the 10x Data Model. ​
