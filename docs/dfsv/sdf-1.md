@@ -47,7 +47,7 @@ The 10x Platform enables you to perform a number of actions and facilitate a var
     POST /v1/fabric/subscriptions/subscribe
   </Card>
 	<Card title="Amend the attributes of a subscription" href="/reference/fabricsattributesv1" icon="fa-pencil" iconColor="#6902CD" target="_blank">
-    POST /v1/fabric/subscriptions/attributes
+  POST /v1/fabric/subscriptions/attributes
   </Card>
 	<Card title="Amend the party roles of a subscription" href="/reference/fabricspartyrolesv1" icon="fa-pencil" iconColor="#6902CD" target="_blank">
     PUT /v1/fabric/subscriptions/party-roles
