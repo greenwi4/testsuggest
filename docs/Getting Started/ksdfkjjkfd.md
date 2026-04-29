@@ -9,8 +9,6 @@ metadata:
 
 Use the Affirm Promos API to add dynamic pricing and educational modals to your site. Customize promotional messaging, integrate prequalification, and enhance customer engagement with flexible financing options. Includes setup, API requests, and implementation details.
 
-Ось готовий блок для вставки:
-
 <HTMLBlock>{`
 <style>
   .country-dropdown-menu {
