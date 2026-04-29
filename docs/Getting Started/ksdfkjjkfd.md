@@ -9,104 +9,115 @@ metadata:
 
 Use the Affirm Promos API to add dynamic pricing and educational modals to your site. Customize promotional messaging, integrate prequalification, and enhance customer engagement with flexible financing options. Includes setup, API requests, and implementation details.
 
+Ось готовий блок для вставки:
+
 <HTMLBlock>
   {`
-  <style>
-    .dropdown-menu {
-      font-family: Arial, sans-serif;
-      max-width: 250px;
-      margin-left: auto; 
-    	margin-right: 0; 
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 10px;
-      background: #4A4AF4;
-      overflow: hidden; 
-    }
+<style>
+  .country-dropdown-menu {
+    font-family: Arial, sans-serif;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #4A4AF4;
+    overflow: hidden;
+  }
 
-    .dropdown-item {
-      margin-bottom: 10px;
-    }
+  .country-dropdown-item {
+    margin-bottom: 10px;
+  }
 
-    .dropdown-toggle {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 10px;
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+  .country-dropdown-toggle {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    .dropdown-toggle:hover {
-      background: #f0f0f0;
-    }
+  .country-dropdown-toggle:hover {
+    background: #f0f0f0;
+  }
 
-    .dropdown-content {
-      display: none;
-      margin-top: 5px;
-      padding: 10px;
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-    }
+  .country-dropdown-content {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
 
-    .dropdown-item.open .dropdown-content {
-      display: block;
-    }
+  .country-dropdown-item.open .country-dropdown-content {
+    display: block;
+  }
 
-    .flag-icon {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-    }
+  .country-flag-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
 
-    .product-item {
-      margin-bottom: 5px;
-    }
+  .country-product-item {
+    margin-bottom: 5px;
+  }
 
-    .product-icon {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-    }
-    
-    .country-title {
-      font-family: Arial, sans-serif;
-      font-size:20px;
-      text-align: center;
-      font-weight: bold;
-      color: #ffffff;
-    } 
+  .country-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+</style>
 
-  </style>
-    <div class="dropdown-menu">
-      <p class="country-title" alt="Countries where this product is available">Country Availability</p>
+<div class="country-dropdown-menu">
+  <p class="country-title">Country Availability</p>
 
-      <div class="dropdown-item">
-        <button class="dropdown-toggle" onclick="toggleDropdown(event)" alt="Drop down menu displaying the available countries for this product">
-          <b>Country List</b> ⬇️
-        </button>
-        <div class="dropdown-content">
-          <div class="product-item">
-            <img src="https://files.readme.io/a4c8b3d6596d943e2b93c82cb1d432a2edaf6998667835c2e97ef4a31d460c7e-us-circle-01.png" alt="USA" class="flag-icon">
-            USA
-          </div>
-          <div class="product-item">
-            <img src="https://files.readme.io/3ca294a1b4b8b8506c3ff32876abc6e3e33d0e65a509dab81398915094bdbc5c-61TcZ33ZrJL._AC_UY1000_.jpg" alt="Canada" class="flag-icon">
-            Canada
-          </div>
-          <div class="product-item">
-            <img src="https://files.readme.io/db98461fef617df7c9970e98f01150f067fcee1fc823a450f09056138b9f70be-united-kingdom-flag-rounded-icon-uk-flag-union-jack-vector.jpg" alt="UK" class="flag-icon">
-            UK
-          </div>
-        </div>
+  <div class="country-dropdown-item">
+    <button class="country-dropdown-toggle" type="button" aria-expanded="false">
+      <b>Country List</b> ⬇️
+    </button>
+
+    <div class="country-dropdown-content">
+      <div class="country-product-item">
+        <img src="https://files.readme.io/a4c8b3d6596d943e2b93c82cb1d432a2edaf6998667835c2e97ef4a31d460c7e-us-circle-01.png" alt="USA" class="country-flag-icon">
+        USA
       </div>
 
+      <div class="country-product-item">
+        <img src="https://files.readme.io/3ca294a1b4b8b8506c3ff32876abc6e3e33d0e65a509dab81398915094bdbc5c-61TcZ33ZrJL._AC_UY1000_.jpg" alt="Canada" class="country-flag-icon">
+        Canada
+      </div>
+
+      <div class="country-product-item">
+        <img src="https://files.readme.io/db98461fef617df7c9970e98f01150f067fcee1fc823a450f09056138b9f70be-united-kingdom-flag-rounded-icon-uk-flag-union-jack-vector.jpg" alt="UK" class="country-flag-icon">
+        UK
+      </div>
     </div>
-  `}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.country-dropdown-toggle').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var item = button.closest('.country-dropdown-item');
+      var isOpen = item.classList.toggle('open');
+
+      button.setAttribute('aria-expanded', String(isOpen));
+    });
+  });
+</script>
+`}
 </HTMLBlock>
+/>
 
 ## Overview
 
