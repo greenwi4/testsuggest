@@ -47,11 +47,7 @@ dsfdsf
 
 > 📘 Wero UX flows and examples
 >
-> </br></br>
->
 > **Copy this password:** `Everybody-Pay5-1nstantly-June`
->
-> </br></br>
 >
 > **Figma links:**
 >
