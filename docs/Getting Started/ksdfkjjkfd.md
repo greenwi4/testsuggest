@@ -86,16 +86,6 @@ Use the Affirm Promos API to add dynamic pricing and educational modals to your 
     </div>
   </div>
 </div>
-
-<script>
-  document.querySelectorAll('.country-dropdown-toggle').forEach(function (button) {
-    button.addEventListener('click', function () {
-      var item = button.closest('.country-dropdown-item');
-      var isOpen = item.classList.toggle('open');
-      button.setAttribute('aria-expanded', String(isOpen));
-    });
-  });
-</script>
 `}</HTMLBlock>
 
 
