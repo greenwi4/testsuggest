@@ -91,6 +91,15 @@ metadata:
     </div>
   </div>
 
-
+  <script>
+    window.toggleDropdown = function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var item = event.currentTarget.closest('.dropdown-item');
+      if (item) {
+        item.classList.toggle('open');
+      }
+    };
+  </script>
   `}
 </HTMLBlock>
