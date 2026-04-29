@@ -118,88 +118,59 @@ The promos endpoint interfaces with our promos service. Based on query parameter
 ## Attributes
 
 <table>
-  <tr>
-    <td><strong>Query Param Name</strong></td>
-    <td><strong>Data type</strong></td>
-    <td><strong>Description</strong></td>
-    <td><strong>Supported Values</strong></td>
-    <td><strong>Default</strong></td>
-  </tr>
-
-  <tr>
-    <td>
-      amount
-      <p>required</p>
-    </td>
-
-    <td><em>int32</em></td>
-    <td>The total amount of the checkout in USD or CAD cents (e.g., 10000 cents to charge $100.00).</td>
-
-    <td />
-
-    <td>Current currency default locale</td>
-  </tr>
-
-  <tr>
-    <td>page\_type</td>
-    <td><em>string</em></td>
-
-    <td>
-      Identifies your promotional messaging so Affirm can apply the necessary customizations based on which page they are displayed.<strong> </strong>
-
-      <ul>
-        <li><em>homepage</em>: Your site's homepage</li>
-        <li><em>landing</em>: A landing page that describes Affirm</li>
-        <li><em>search</em>: Your site's search results page</li>
-        <li><em>category</em>: Your site's category page</li>
-        <li><em>product</em>: A product description page</li>
-        <li><em>cart</em>: Your site's cart page</li>
-        <li><em>payment</em>: The payment selection page</li>
-        <li><em>banner</em>: A banner image (use for any promotional messaging triggered by your banner or image regardless of page location)</li>
-        <li><em>marketplace</em>: The marketplace landing page</li>
-      </ul>
-    </td>
-
-    <td>
-      homepage \
-      landing \
-      search \
-      category \
-      product
-      <p>cart</p>
-      <p>payment</p>
-      <p>banner \
-      marketplace</p>
-    </td>
-
-    <td>product</td>
-  </tr>
-
-  <tr>
-    <td>
-      template\_field
-      <p><em>optional</em></p>
-    </td>
-
-    <td />
-
-    <td>
-      Determine what types of promos to render:
-
-      <p />
-
-      <ul>
-        <li><em>en\_US</em>: English-speaking United States</li>
-        <li><em>en\_CA</em>: English-speaking Canada</li>
-        <li><em>fr\_CA</em>: French-speaking Canada</li>
-        <li><em>en\_GB</em>: English-speaking United Kingdom</li>
-      </ul>
-    </td>
-
-    <td>en\_US \ en\_CA \ fr\_CA \ en\_GB</td>
-    <td>Current country’s default locale</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td><strong>Query Param Name</strong></td>
+      <td><strong>Data type</strong></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Supported Values</strong></td>
+      <td><strong>Default</strong></td>
+    </tr>
+    <tr>
+      <td>amount<br><em>required</em></td>
+      <td><em>int32</em></td>
+      <td>The total amount of the checkout in USD or CAD cents (e.g., 10000 cents to charge $100.00).</td>
+      <td></td>
+      <td>Current currency default locale</td>
+    </tr>
+    <tr>
+      <td>page_type</td>
+      <td><em>string</em></td>
+      <td>
+        Identifies your promotional messaging so Affirm can apply the necessary customizations based on which page they are displayed.
+        <ul>
+          <li><em>homepage</em>: Your site's homepage</li>
+          <li><em>landing</em>: A landing page that describes Affirm</li>
+          <li><em>search</em>: Your site's search results page</li>
+          <li><em>category</em>: Your site's category page</li>
+          <li><em>product</em>: A product description page</li>
+          <li><em>cart</em>: Your site's cart page</li>
+          <li><em>payment</em>: The payment selection page</li>
+          <li><em>banner</em>: A banner image</li>
+          <li><em>marketplace</em>: The marketplace landing page</li>
+        </ul>
+      </td>
+      <td>homepage<br>landing<br>search<br>category<br>product<br>cart<br>payment<br>banner<br>marketplace</td>
+      <td>product</td>
+    </tr>
+    <tr>
+      <td>template_field<br><em>optional</em></td>
+      <td></td>
+      <td>
+        Determine what types of promos to render:
+        <ul>
+          <li><em>en_US</em>: English-speaking United States</li>
+          <li><em>en_CA</em>: English-speaking Canada</li>
+          <li><em>fr_CA</em>: French-speaking Canada</li>
+          <li><em>en_GB</em>: English-speaking United Kingdom</li>
+        </ul>
+      </td>
+      <td>en_US<br>en_CA<br>fr_CA<br>en_GB</td>
+      <td>Current country's default locale</td>
+    </tr>
+  </tbody>
 </table>
+
 
 ## Response Fields
 
