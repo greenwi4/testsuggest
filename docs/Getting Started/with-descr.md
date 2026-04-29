@@ -45,15 +45,20 @@ dsfdsf
 >
 > message
 
-<HTMLBlock>{`
-<div style="border:1px solid #5b8def;background:#f5f8ff;border-radius:6px;padding:14px;display:flex;gap:10px;align-items:flex-start;">
-<i class="fa-solid fa-circle-info" style="color:#5b8def;font-size:16px;margin-top:2px;"></i>
-<div style="font-size:14px;color:#333;">
-<span style="font-weight:600;color:#3a5fa3;">INFO:</span>
-
-Your informational message goes here.
-</div>
-</div>
-`}</HTMLBlock>
+> 📘 Wero UX flows and examples
+>
+> </br></br>
+>
+> **Copy this password:** `Everybody-Pay5-1nstantly-June`
+>
+> </br></br>
+>
+> **Figma links:**
+>
+> - <Anchor target="_blank" href="https://www.figma.com/design/NbDGK8HwNHlzoxnmPT41Cl/%F0%9F%8F%9B%EF%B8%8FWero-UX-Flows---Examples?node-id=57586-1423&t=LTeaTQZTVALo6zom-0">Wero Activities</Anchor>
+> - <Anchor target="_blank" href="https://www.figma.com/design/NbDGK8HwNHlzoxnmPT41Cl/%F0%9F%8F%9B%EF%B8%8FWero-UX-Flows---Examples?node-id=38588-35666&t=r2XWJ75hjmBiGHcP-0">P2P flows</Anchor>
+> - <Anchor target="_blank" href="https://www.figma.com/design/NbDGK8HwNHlzoxnmPT41Cl/%F0%9F%8F%9B%EF%B8%8FWero-UX-Flows---Examples?node-id=78656-25313&t=D6okAhsoWL4Q0htV-0">e/m-commerce flows</Anchor>
+> - <Anchor target="_blank" href="https://www.figma.com/proto/NbDGK8HwNHlzoxnmPT41Cl/%F0%9F%8F%9B%EF%B8%8FWero-UX-Flows---Examples?node-id=67625-179815&p=f&t=jKRaKYTOdPB78IFv-0&scaling=min-zoom&content-scaling=fixed&page-id=3797%3A5">e-com prototype</Anchor>
+> - <Anchor target="_blank" href="https://www.figma.com/design/NbDGK8HwNHlzoxnmPT41Cl/%F0%9F%8F%9B%EF%B8%8FWero-UX-Flows---Examples?node-id=67645-233237&t=jKRaKYTOdPB78IFv-0">Disputes flows</Anchor>
 
 <br />
