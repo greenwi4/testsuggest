@@ -5,8 +5,10 @@ hidden: false
 metadata:
   robots: index
 ---
-| Col1 | Col2 | Col3                                   |
-| ---- | ---- | -------------------------------------- |
-| a    | b    | <ul>\<li>one\</li>\<li>two\</li>\</ul> |
+| Col1 | Col2 | Col3                |
+| ---- | ---- | ------------------- |
+| a    | b    | dfdf<br />- 1<br /> |
+
+<br />
 
 test
