@@ -5,9 +5,9 @@ hidden: false
 metadata:
   robots: index
 ---
-| Col1                                                    | Col2 | Col3                |
-| ------------------------------------------------------- | ---- | ------------------- |
-| [!іваів](https://techdocs.akamai.com/ddi/img/dummy.png) | b    | dfdf<br />- 1<br /> |
+| Col1                                                   | Col2 | Col3                |
+| ------------------------------------------------------ | ---- | ------------------- |
+| [іваів](https://techdocs.akamai.com/ddi/img/dummy.png) | b    | dfdf<br />- 1<br /> |
 
 <Table>
   <thead>
