@@ -8,15 +8,30 @@ metadata:
 <Table>
   <thead>
     <tr>
-      <th>Col1</th>
-      <th>Col2</th>
-      <th>Col3</th>
+      <th>
+        Col1
+      </th>
+
+      <th>
+        Col2
+      </th>
+
+      <th>
+        Col3
+      </th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
-      <td>a</td>
-      <td>empty</td>
+      <td>
+        a
+      </td>
+
+      <td>
+        ![dummy](https://techdocs.akamai.com/ddi/img/dummy.png)
+      </td>
+
       <td>
         - item1
         - item2
@@ -24,3 +39,5 @@ metadata:
     </tr>
   </tbody>
 </Table>
+
+<br />
