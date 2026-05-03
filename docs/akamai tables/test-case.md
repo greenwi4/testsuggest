@@ -33,7 +33,7 @@ metadata:
       </td>
 
       <td>
-        > test
+        > test<br />fvdfvdfvd<br />fvdfdfv
       </td>
 
       <td>
