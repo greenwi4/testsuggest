@@ -9,9 +9,52 @@ metadata:
 | ---- | ---- | ------------------- |
 | a    | b    | dfdf<br />- 1<br /> |
 
-|   |                                                         |   |
-| - | ------------------------------------------------------- | - |
-|   | ![dummy](https://techdocs.akamai.com/ddi/img/dummy.png) |   |
-|   |                                                         |   |
+<Table>
+  <thead>
+    <tr>
+      <th>
+
+      </th>
+
+      <th>
+
+      </th>
+
+      <th>
+
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+
+      </td>
+
+      <td>
+        > test
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 test
