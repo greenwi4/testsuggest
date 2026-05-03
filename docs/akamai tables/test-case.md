@@ -16,8 +16,11 @@ metadata:
   <tbody>
     <tr>
       <td>a</td>
-      <td>b</td>
-      <td>c</td>
+      <td>empty</td>
+      <td>
+        - item1
+        - item2
+      </td>
     </tr>
   </tbody>
 </Table>
