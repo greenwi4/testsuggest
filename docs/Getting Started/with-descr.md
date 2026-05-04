@@ -104,10 +104,6 @@ dsfdsf
 
 ## 10. Image in tab block (if your project uses .tabs)
 
-<HTMLBlock>{`
-<div class='tabs'><label>Tab 1</label><div class='tab'><img src='https://placehold.co/300x120/teal/white?text=in-tab' /></div></div>
-`}</HTMLBlock>
-
 <Tabs>
   <Tab title="First Tab">
     <img src='https://placehold.co/300x120/teal/white?text=in-tab' />
