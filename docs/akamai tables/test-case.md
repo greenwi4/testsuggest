@@ -5,56 +5,23 @@ hidden: false
 metadata:
   robots: index
 ---
-| Col1                                                   | Col2 | Col3                |
-| ------------------------------------------------------ | ---- | ------------------- |
-| [іваів](https://techdocs.akamai.com/ddi/img/dummy.png) | b    | dfdf<br />- 1<br /> |
+<table>
+<thead><tr><th>What is it?</th><th>Quantity</th><th>Example</th></tr></thead>
+<tbody>
+<tr>
+<td>
 
-<Table>
-  <thead>
-    <tr>
-      <th>
+**List example**
 
-      </th>
+</td>
+<td>37</td>
+<td>
 
-      <th>
+- **I want emojis**. Enable to support emojis.
+- **Enable YouTube**.
+- **Add Images**.
 
-      </th>
-
-      <th>
-
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-
-      </td>
-
-      <td>
-        > test<br />fvdfvdfvd<br />fvdfdfv
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-
-      </td>
-
-      <td>
-
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
-test
+</td>
+</tr>
+</tbody>
+</table>
