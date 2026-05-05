@@ -1,0 +1,83 @@
+openapi: 3.0.3
+info:
+  title: Operation Index Formatting Repro
+  version: 1.0.0
+  description: Minimal OAS for checking generated Operations index formatting.
+servers:
+  - url: https://example.com
+tags:
+  - name: Formatting Repro
+    description: Operations with different description markup styles.
+paths:
+  /formatting-repro/plain:
+    get:
+      tags:
+        - Formatting Repro
+      summary: Plain Description Operation
+      operationId: Plain Description Operation
+      description: This description is plain text with no Markdown or HTML formatting.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReproResponse'
+  /formatting-repro/markdown-bold:
+    get:
+      tags:
+        - Formatting Repro
+      summary: Markdown Bold Description Operation
+      operationId: Markdown Bold Description Operation
+      description: >-
+        **This sentence is Markdown bold.** This description uses Markdown
+        syntax.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReproResponse'
+  /formatting-repro/html-strong:
+    get:
+      tags:
+        - Formatting Repro
+      summary: HTML Strong Description Operation
+      operationId: HTML Strong Description Operation
+      description: >-
+        <p><strong>This sentence is HTML strong.</strong></p><p>This description
+        uses HTML tags.</p>
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReproResponse'
+  /formatting-repro/deprecated-html-strong:
+    get:
+      tags:
+        - Formatting Repro
+      summary: Deprecated HTML Strong Description Operation
+      operationId: Deprecated HTML Strong Description Operation
+      deprecated: true
+      description: >-
+        <p><strong>This operation is deprecated; use GET
+        /formatting-repro/html-strong instead.</strong></p><p>This mirrors the
+        UKG-style deprecated description.</p>
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReproResponse'
+components:
+  schemas:
+    ReproResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+          example: true
