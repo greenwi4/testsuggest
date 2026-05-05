@@ -1,0 +1,10 @@
+- retrieve-all-fixed-rules
+- create-fixed-rule
+- create-fixed-rules
+- delete-fixed-rules
+- retrieve-fixed-rules
+- update-fixed-rules
+- create-or-update-fixed-rules
+- delete-fixed-rule-by-id
+- retrieve-fixed-rule-by-id
+- update-fixed-rule-by-id

@@ -1,0 +1,9 @@
+- retrieve-employment-term-deprecated
+- create-employment-term
+- retrieve-employment-terms
+- update-employment-term-versions
+- delete-employment-term-by-id
+- retrieve-employment-term-by-id-deprecated
+- update-employment-term-by-id
+- retrieve-all-employment-terms
+- retrieve-employment-term-by-id

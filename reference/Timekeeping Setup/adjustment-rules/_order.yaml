@@ -1,0 +1,7 @@
+- retrieve-all-adjustment-rules
+- create-adjustment-rule
+- retrieve-adjustment-rules
+- create-or-update-adjustment-rule-versions
+- delete-adjustment-rule-by-id
+- create-and-assign-adjustment-rule-version-by-id
+- update-adjustment-rule-by-id

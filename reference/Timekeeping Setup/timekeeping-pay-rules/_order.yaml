@@ -1,0 +1,10 @@
+- retrieve-all-timekeeping-pay-rules-deprecated
+- create-timekeeping-pay-rule-deprecated
+- create-timekeeping-pay-rules
+- delete-timekeeping-pay-rules
+- retrieve-timekeeping-pay-rules
+- update-timekeeping-pay-rules
+- delete-timekeeping-pay-rule-by-id
+- update-timekeeping-pay-rule-by-id
+- retrieve-all-timekeeping-pay-rules
+- create-timekeeping-pay-rule

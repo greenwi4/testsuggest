@@ -1,0 +1,10 @@
+- retrieve-all-paycode-distributions-or-by-name
+- create-paycode-distribution
+- create-or-update-paycode-distributions
+- create-paycode-distributions
+- delete-paycode-distributions
+- retrieve-paycode-distributions
+- update-paycode-distributions
+- delete-paycode-distribution-by-id
+- retrieve-paycode-distribution-by-id
+- update-paycode-distribution-by-id

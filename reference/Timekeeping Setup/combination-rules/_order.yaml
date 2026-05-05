@@ -1,0 +1,10 @@
+- retrieve-all-combination-rules
+- create-combination-rule
+- create-or-update-combination-rules
+- create-combination-rules
+- delete-combination-rules
+- retrieve-combination-rules
+- update-combination-rules
+- delete-combination-rule-by-id
+- retrieve-combination-rule-by-id
+- update-combination-rule-by-id

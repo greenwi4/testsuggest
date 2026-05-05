@@ -1,0 +1,17 @@
+- retrieve-work-rules-as-employee-deprecated
+- retrieve-work-rule-by-id-as-employee-deprecated
+- retrieve-all-work-rules
+- create-work-rule
+- create-work-rules
+- delete-work-rules
+- retrieve-work-rules
+- update-work-rules
+- delete-work-rule-by-id
+- retrieve-work-rule-by-id
+- update-work-rule-by-id
+- retrieve-work-rules-as-manager-deprecated
+- retrieve-work-rule-by-id-as-manager-deprecated
+- retrieve-work-rules-as-employee
+- retrieve-work-rule-by-id-as-employee
+- retrieve-work-rules-as-manager
+- retrieve-work-rule-by-id-as-manager

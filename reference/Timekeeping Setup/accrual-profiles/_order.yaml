@@ -1,0 +1,6 @@
+- retrieve-all-accrual-profiles-deprecated
+- retrieve-accrual-profiles
+- delete-accrual-profile
+- retrieve-accrual-profile-by-id-deprecated
+- retrieve-all-accrual-profiles
+- retrieve-accrual-profile-by-id

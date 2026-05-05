@@ -1,0 +1,6 @@
+- retrieve-all-percentage-allocation-rules
+- create-percentage-allocation-rule
+- retrieve-percentage-allocation-rules
+- delete-percentage-allocation-rule-by-id
+- add-rule-version-to-percentage-allocation-rule-by-id
+- update-percentage-allocation-rule-by-id

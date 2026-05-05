@@ -1,0 +1,5 @@
+- retrieve-all-pay-code-tags
+- create-pay-code-tag
+- delete-pay-code-tag-by-id
+- retrieve-pay-code-tag-by-id
+- update-pay-code-tag-by-id
