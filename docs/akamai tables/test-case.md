@@ -11,6 +11,8 @@ metadata:
 
 ![]()
 
-![](https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png)
+
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" align="center" />
+
 
 <br />
