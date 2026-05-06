@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-# Images 
+# Images
 
 ## Adding markdown syntax directly in Raw mode
 
@@ -95,4 +95,4 @@ This is some text. &#x20;
 
 # Another header
 
-Text
+Text&#x20;
