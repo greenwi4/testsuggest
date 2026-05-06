@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Left
+# Left
 
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="fsdfsdf" width="400px" />
