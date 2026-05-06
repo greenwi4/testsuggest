@@ -5,7 +5,18 @@ hidden: false
 metadata:
   robots: index
 ---
+# Images
 
+## Adding markdown syntax directly in Raw mode
+
+![this is alt text](https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png)
+
+## After adding attributes (border, alignment, size) changes to a \`\<Image>\` tag. 
+
+Can only change alignment in Raw mode.  If you set alignment to left, it turns it into a Float.
+
+
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="this is alt text" width="400px" border={true} />
 
 
 This is text&#x20;
@@ -74,13 +85,13 @@ style="border: 5px solid black;"
 
 # A header
 
-This is some text.
+This is some text. &#x20;
 
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test" align="right" width="400px" />
 
 
-
+<br />
 
 # Another header
 
