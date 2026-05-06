@@ -95,4 +95,3 @@ This is some text. &#x20;
 
 # Another header
 
-Text&#x20;
