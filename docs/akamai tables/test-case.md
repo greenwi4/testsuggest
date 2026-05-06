@@ -19,7 +19,7 @@ Can only change alignment in Raw mode.  If you set alignment to left, it turns 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="this is alt text" width="400px" border={true} />
 
 
-This is text&#x20;
+This is text
 
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test test" align="right" width="500px" />
