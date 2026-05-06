@@ -7,6 +7,8 @@ metadata:
 ---
 # Left
 
+some text
+
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="fsdfsdf" width="400px" />
 
@@ -14,6 +16,8 @@ metadata:
 <br />
 
 # Right
+
+some text
 
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" align="right" width="400px" />
