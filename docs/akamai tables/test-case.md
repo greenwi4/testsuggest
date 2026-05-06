@@ -5,12 +5,10 @@ hidden: false
 metadata:
   robots: index
 ---
-| Col1 | Col2 | Col3                              |
-| ---- | ---- | --------------------------------- |
-| a    | b    | <ul><li>one</li><li>two</li></ul> |
+Left
 
 
-<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" align="right" width="400px" />
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="fsdfsdf" width="400px" />
 
 
 <br />
