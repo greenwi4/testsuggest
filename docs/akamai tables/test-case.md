@@ -85,7 +85,7 @@ style="border: 5px solid black;"
 
 # A header
 
-This is some text. &#x20;
+This is some text.
 
 
 <Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test" align="right" width="400px" />
@@ -94,4 +94,3 @@ This is some text. &#x20;
 <br />
 
 # Another header
-
