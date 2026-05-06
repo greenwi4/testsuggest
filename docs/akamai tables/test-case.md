@@ -9,12 +9,10 @@ metadata:
 
 This is some text.
 
-
-<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test" align="right" width="400px" />
-
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test" align="center" width="400px" />
 
 <br />
 
 # Another header
 
-Text&#x20;
+Text
