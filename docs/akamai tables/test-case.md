@@ -5,4 +5,14 @@ hidden: false
 metadata:
   robots: index
 ---
-&#x20;Text&#x20;
+# A header
+
+This is some text.
+
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" alt="test" align="right" width="400px" />
+
+<br />
+
+# Another header
+
+Text
