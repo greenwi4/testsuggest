@@ -12,3 +12,13 @@ metadata:
 
 
 <br />
+
+# Right
+
+
+<Image src="https://techdocs.akamai.com/control-ctr/img/cc-overview-v3.png" align="right" width="400px" />
+
+
+<br />
+
+<br />
