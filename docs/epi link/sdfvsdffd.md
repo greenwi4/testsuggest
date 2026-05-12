@@ -5,40 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-sfvsdvdsf
 
-<br />
-
-|                                                                          |   |   |
-| ------------------------------------------------------------------------ | - | - |
-| [fsdsdds](https://docs.tstcasce.infinityfree.me/create/docs/epi%20link)  |   |   |
-|                                                                          |   |   |
-
-EPI offers its members the ability to use their own single sign-on (SSO) to login to Wero Works by federating access to the members identity provider.
-
-Members who want their users to log into Wero Works with their existing SSO credentials can use the following information to configure a federated identity authorisation protocol that EPI supports.
-
-## Supported federated identity providers
-
-Members can select between or implement both of the following federated identity authorisation protocols that EPI supports:
-
-- SAML 2.0
-- OpenID Connect (OIDC)
-
-While members can select either or both identity authorisation protocols, OIDC has the following advantages:
-
-- Simplicity (based on OAuth2.0 and uses JWT token compared to SAML 2.0’s XML)
-- Improved usability
-- Better compatibility with modern web and mobile applications
-
-## Configuration
-
-### Identifier
-
-To add a member's federated identity provider to Wero Works, EPI requires all the email address domains that users will use to access Wero Works through federation.
-
-The email address domains are required so that EPI can route users to the correct federated identity provider when they sign in. Most use cases involve only one domain name. However,
-mapping multiple email address domains to a single federated identity provider is also supported.
 
 | Field      | Format                                    | Example Values                                                                                |
 | :--------- | :---------------------------------------- | :-------------------------------------------------------------------------------------------- |
