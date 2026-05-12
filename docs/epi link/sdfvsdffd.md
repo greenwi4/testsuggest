@@ -5,21 +5,8 @@ hidden: false
 metadata:
   robots: index
 ---
-| Field      | Format                                    | Example Values                                                                                |
-| :--------- | :---------------------------------------- | :-------------------------------------------------------------------------------------------- |
-| Identifier | A comma-separated string of email domains | `testbank.com` (single email domain) `testbank.com,testbankmail.com` (multiple email domains) |
-
-### Federation method
-
-Whether members choose OIDC or SAML 2.0, both EPI and the members must provide each other with specific values to configure the federated identity provider. The following tables outline each case.
-
-Note that the following tables show the values required by members for configuring either the Production (Prod), Integration (INT) or User Acceptance Testing (UAT) environments.
-
-Provide the requested information to member support. EPI will respond with a timeline of configuration accordingly.
-
-### OpenID Connect (OIDC)
-
-For OIDC, EPI provides the following values for members to configure OIDC.
+|    |
+| :- |
 
 |                 | Production (PROD)                                          |
 | :-------------- | :--------------------------------------------------------- |
