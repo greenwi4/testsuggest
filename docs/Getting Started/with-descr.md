@@ -4,6 +4,8 @@ excerpt: test repro branch merge 2
 deprecated: false
 hidden: false
 metadata:
+  image: >-
+    https://files.readme.io/e6f74c6bb9e9bb8bfbb000be843f455890bcd818b36b679aea2acb453162b375-Obi-partido-celular.png
   robots: index
 next:
   description: Repro step next action 233
@@ -33,7 +35,7 @@ dsfdsf
 ```text
 ```
 
-![](https://placehold.co/320x120.png?text=Codex+Enter)
+![](https://files.readme.io/7ca9c2802a22cd0c349edb03ac9e627539b89dbd9dc32921446d4d13836cb55b-Obi-partido-celular.png)
 
 > 📘 test
 >
