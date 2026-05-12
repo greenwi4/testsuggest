@@ -9,11 +9,11 @@ export const StepList = ({ children }) => {
   )
 }
 
-export const Step = ({ index, isFirst, isLast, children }) => {
+export const Step = ({ index, isLast, children }) => {
   return (
     <li className="relative grid grid-cols-[2.5rem_1fr] items-start font-inherit">
       {/* Rail */}
-      <div className="relative flex justify-center">
+      <div className="relative flex justify-center self-stretch">
         {/* Step circle */}
         <span
           className="
@@ -25,13 +25,13 @@ export const Step = ({ index, isFirst, isLast, children }) => {
           {index}
         </span>
 
-        {/* Connector — only on first step, stretches to cover the whole list */}
-        {isFirst && (
+        {/* Connector — from below this circle to above the next circle */}
+        {!isLast && (
           <span
             aria-hidden
             className="
               absolute left-1/2 w-px
-              top-4 h-[1000px]
+              top-10 -bottom-6
               bg-[#4155FF]/30 dark:bg-[#4155FF]/40
             "
           />
@@ -77,7 +77,7 @@ export const SubStep = ({ index, children }) => {
 }
 
 <StepList>
-  <Step index={1} isFirst>
+  <Step index={1}>
     Select <strong>Standalone app</strong> in the menu.
     <SubStepList>
       <SubStep index={0}>
@@ -93,7 +93,7 @@ export const SubStep = ({ index, children }) => {
     Select the arrow icon next to XYZ.
   </Step>
 
-  <Step index={3}>
+  <Step index={3} isLast>
     Select <strong>Copy ID</strong>.
   </Step>
 </StepList>
