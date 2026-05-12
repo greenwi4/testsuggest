@@ -5,8 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-
-
 | Field      | Format                                    | Example Values                                                                                |
 | :--------- | :---------------------------------------- | :-------------------------------------------------------------------------------------------- |
 | Identifier | A comma-separated string of email domains | `testbank.com` (single email domain) `testbank.com,testbankmail.com` (multiple email domains) |
@@ -23,12 +21,12 @@ Provide the requested information to member support. EPI will respond with a tim
 
 For OIDC, EPI provides the following values for members to configure OIDC.
 
-|                 | Production (PROD)                                                                                       |
-| :-------------- | :------------------------------------------------------------------------------------------------------ |
-| Field           | Value                                                                                                   |
-| Redirect URL    | `https://auth-sso-epicentre.weropay.eu/oauth2/idpresponse`                                              |
-| Flow Type       | Authorization Code Flow                                                                                 |
-| Application URL | <Anchor target="_blank" href="https://backoffice.weropay.eu/"><https://backoffice.weropay.eu/></Anchor> |
+|                 | Production (PROD)                                          |
+| :-------------- | :--------------------------------------------------------- |
+| Field           | Value                                                      |
+| Redirect URL    | `https://auth-sso-epicentre.weropay.eu/oauth2/idpresponse` |
+| Flow Type       | Authorization Code Flow                                    |
+| Application URL | https\://backoffice.weropay.eu/                            |
 
 |                 | Integration (INT)                                                                                                         |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------ |
@@ -44,28 +42,7 @@ For OIDC, EPI provides the following values for members to configure OIDC.
 | Flow Type       | Authorization Code Flow                                                                                                   |
 | Application URL | <Anchor target="_blank" href="https://backoffice.uat.epi.engineering/"><https://backoffice.uat.epi.engineering/></Anchor> |
 
-EPI requires the following fields from members to configure the OIDC federated identity provider:
-
-| Field                     | Description                                                                                                                              |
-| :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| Client ID                 | Obtained from the OAuth 2.0 application                                                                                                  |
-| Client Secret             | Obtained from the OAuth 2.0 application - 128-bit security level (minimum is alphanumeric password 22 chars, special characters allowed) |
-| Authorised Scopes         | openId email profile                                                                                                                     |
-| Issuer URL                | If members include this value, all fields marked with an asterisk become optional.                                                       |
-| Authorization endpoint \* |                                                                                                                                          |
-| Token endpoint \*         |                                                                                                                                          |
-| Userinfo endpoint \*      |                                                                                                                                          |
-| Jwks\_url endpoint \*     |                                                                                                                                          |
-
-| Field   | OAuth Claims                                                |
-| :------ | :---------------------------------------------------------- |
-| Claim   | Value                                                       |
-| `email` | The email address the user logs in with                     |
-| `name`  | The full name of the user (i.e. `first_name` + `last_name`) |
-
-### SAML 2.0
-
-For SAML 2.0, EPI provides the following values for a third party to configure their SAML 2.0 application.
+<br />
 
 |                                | Production (PROD)                                                                                                             |
 | :----------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
@@ -86,31 +63,6 @@ For SAML 2.0, EPI provides the following values for a third party to configure t
 | Entity ID or Audience URL      | `https://auth-sso-epicentre.werouat.eu/eu-central-1_27x4hl1gR`                                          |
 | Assertion Consumer Service URL | `https://auth-sso-epicentre.werouat.eu/eu-central-1_27x4hl1gR/saml2/idpresponse`                        |
 
-EPI requires the following fields from members to configure the SAML federated identity provider:
+<br />
 
-| Field                             | Description             |
-| :-------------------------------- | :---------------------- |
-| Metadata URL or Metadata xml file | Preferably Metadata URL |
-
-|           | Attribute mapping                                           |
-| :-------- | :---------------------------------------------------------- |
-| Attribute | Value                                                       |
-| `email`   | The email address the user logs in with                     |
-| `name`    | The full name of the user (i.e. `first_name` + `last_name`) |
-
-### SAML Certificates
-
-When EPI receives either the metadata URL or metadata xml file, EPI can then supply the following certificates if the provider is configured to sign SAML 2.0 requests or encrypt SAML 2.0 assertions, or both:
-
-- SAML 2.0 Request signing certificate (CRT file)
-- SAML 2.0 Encrypted assertions certificate (CRT file)
-
-## Submitting a request
-
-Once your organization is ready to configure a federated identity provider, please submit a request through the <Anchor target="_blank" href="https://epicompany.atlassian.net/servicedesk/customer/portal/2/group/222">EPI Member Run Portal</Anchor>.
-
-### Important:
-
-Before EPI can enable Production (PROD) configuration, members must first request Integration (INT) or User Acceptance Testing (UAT) _(ideally both, but not mandatory)_ and complete testing with EPI to confirm successful setup.<br />The PROD configuration must use different credentials than those used in INT or UAT environments.
-
-EPI will review your request and provide a timeline for configuration.
+<br />
