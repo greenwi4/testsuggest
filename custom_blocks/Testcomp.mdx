@@ -1,11 +1,31 @@
 ---
 name: Testcomp
 ---
+export const StepList = ({ children }) => {
+  return (
+    <ol className="relative space-y-8 font-inherit">
+      {children}
+    </ol>
+  )
+}
+
 export const Step = ({ index, isLast, children }) => {
   return (
-    <li className="grid grid-cols-[2.5rem_1fr] items-start font-inherit">
+    <li className="relative grid grid-cols-[2.5rem_1fr] items-start font-inherit">
+      {/* Connector segment — anchored to the li, not the rail */}
+      {!isLast && (
+        <span
+          aria-hidden
+          className="
+            absolute left-[1.25rem] -translate-x-1/2 w-px
+            top-9 -bottom-8
+            bg-[#4155FF]/30 dark:bg-[#4155FF]/40
+          "
+        />
+      )}
+
       {/* Rail */}
-      <div className="relative flex justify-center self-stretch">
+      <div className="relative flex justify-center">
         {/* Step circle */}
         <span
           className="
@@ -16,18 +36,6 @@ export const Step = ({ index, isLast, children }) => {
         >
           {index}
         </span>
-
-        {/* Connector segment */}
-        {!isLast && (
-          <span
-            aria-hidden
-            className="
-              absolute left-1/2 -translate-x-1/2 w-px
-              top-9 -bottom-8
-              bg-[#4155FF]/30 dark:bg-[#4155FF]/40
-            "
-          />
-        )}
       </div>
 
       {/* Content */}
@@ -38,6 +46,54 @@ export const Step = ({ index, isLast, children }) => {
   )
 }
 
-<Step index={3} isLast>
-  Select <strong>Copy ID</strong>.
-</Step>
+export const SubStepList = ({ children }) => {
+  return (
+    <ol className="mt-4 space-y-4 font-inherit">
+      {children}
+    </ol>
+  )
+}
+
+export const SubStep = ({ index, children }) => {
+  const letter = String.fromCharCode(97 + index)
+
+  return (
+    <li className="grid grid-cols-[2rem_1fr] items-start font-inherit">
+      <span
+        className="
+          flex h-7 w-7 items-center justify-center
+          rounded-full border border-[#4155FF]/25 bg-[#4155FF]/10
+          text-xs font-medium text-[#4155FF] dark:bg-[#4155FF]/15
+        "
+      >
+        {letter}.
+      </span>
+
+      <div className="pt-0.5 font-inherit">
+        {children}
+      </div>
+    </li>
+  )
+}
+
+<StepList>
+  <Step index={1}>
+    Select <strong>Standalone app</strong> in the menu.
+    <SubStepList>
+      <SubStep index={0}>
+        Open XYZ.
+      </SubStep>
+      <SubStep index={1}>
+        Select the <strong>Wero wallet</strong> category.
+      </SubStep>
+    </SubStepList>
+  </Step>
+
+  <Step index={2}>
+    Select the arrow icon next to XYZ.
+  </Step>
+
+  <Step index={3} isLast>
+    Select <strong>Copy ID</strong>.
+  </Step>
+</StepList>
