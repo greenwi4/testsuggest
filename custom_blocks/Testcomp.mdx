@@ -4,26 +4,23 @@ name: Testcomp
 export const StepList = ({ children }) => {
   return (
     <ol className="relative space-y-8 font-inherit">
+      {/* Single continuous line through the whole list */}
+      <span
+        aria-hidden
+        className="
+          absolute left-[1.25rem] -translate-x-1/2 w-px
+          top-4 bottom-[calc(1rem+1px)]
+          bg-[#4155FF]/30 dark:bg-[#4155FF]/40
+        "
+      />
       {children}
     </ol>
   )
 }
 
-export const Step = ({ index, isLast, children }) => {
+export const Step = ({ index, children }) => {
   return (
     <li className="relative grid grid-cols-[2.5rem_1fr] items-start font-inherit">
-      {/* Connector segment — anchored to the li, not the rail */}
-      {!isLast && (
-        <span
-          aria-hidden
-          className="
-            absolute left-[1.25rem] -translate-x-1/2 w-px
-            top-9 -bottom-8
-            bg-[#4155FF]/30 dark:bg-[#4155FF]/40
-          "
-        />
-      )}
-
       {/* Rail */}
       <div className="relative flex justify-center">
         {/* Step circle */}
@@ -93,7 +90,7 @@ export const SubStep = ({ index, children }) => {
     Select the arrow icon next to XYZ.
   </Step>
 
-  <Step index={3} isLast>
+  <Step index={3}>
     Select <strong>Copy ID</strong>.
   </Step>
 </StepList>
