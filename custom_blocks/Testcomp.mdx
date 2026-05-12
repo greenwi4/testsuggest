@@ -1,0 +1,43 @@
+---
+name: Testcomp
+---
+export const Step = ({ index, isLast, children }) => {
+  return (
+    <li className="grid grid-cols-[2.5rem_1fr] items-start font-inherit">
+      {/* Rail */}
+      <div className="relative flex justify-center self-stretch">
+        {/* Step circle */}
+        <span
+          className="
+            relative z-10 flex h-8 w-8 items-center justify-center
+            rounded-full border border-[#4155FF]/25 bg-[#4155FF]/10
+            text-sm font-semibold text-[#4155FF] dark:bg-[#4155FF]/15
+          "
+        >
+          {index}
+        </span>
+
+        {/* Connector segment */}
+        {!isLast && (
+          <span
+            aria-hidden
+            className="
+              absolute left-1/2 -translate-x-1/2 w-px
+              top-9 -bottom-8
+              bg-[#4155FF]/30 dark:bg-[#4155FF]/40
+            "
+          />
+        )}
+      </div>
+
+      {/* Content */}
+      <div className="pt-0.5 font-inherit">
+        {children}
+      </div>
+    </li>
+  )
+}
+
+<Step index={3} isLast>
+  Select <strong>Copy ID</strong>.
+</Step>
