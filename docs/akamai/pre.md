@@ -44,3 +44,21 @@ metadata:
 </table>
 
 <br />
+
+<td>A pointer to a JSON file with your penalty box conditions. File contains:<br /><br />
+<pre><code class="language-json">{
+  "conditionOperator": "AND",
+  "conditions": [
+    {
+      "type": "filenameMatch",
+      "filenames": [
+        "my-json-files"
+      ],
+      "order": 0,
+      "positiveMatch": true
+    }
+  ]
+}</code></pre>
+</td>
+
+<br />
