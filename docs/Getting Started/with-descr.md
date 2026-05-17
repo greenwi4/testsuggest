@@ -126,4 +126,21 @@ dsfdsf
   </Tab>
 </Tabs>
 
+<table>
+  <tr>
+    <td>
+      <pre>
+{
+  "conditionOperator": "AND",
+  "conditions": [
+    {
+      "type": "filenameMatch"
+    }
+  ]
+}
+      </pre>
+    </td>
+  </tr>
+</table>
+
 <br />
