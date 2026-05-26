@@ -16,7 +16,7 @@ Included APIs:
 | [Company Information API](ref:company-information) | Obtain company-level details to support compliance and reporting.                              |
 | [Employee Demographic API](ref:employees)          | Access employee demographic and employment details.                                            |
 | [Partner Onboarding API](ref:partner-onboarding)   | Enable our partners to onboard customers through our Paylocity Marketplace-initiated workflow. |
-| [Pay Details API](ref:pay-detail-api-overview)     | Retrieve historical payroll data for retirement calculations.                                  |
+| [without descr](doc:without-descr)                 | Retrieve historical payroll data for retirement calculations.                                  |
 | [Pay Setup API](ref:pay-setup-overview)            | Manage earnings and deductions configurations essential for retirement contributions.          |
 
 <br />
