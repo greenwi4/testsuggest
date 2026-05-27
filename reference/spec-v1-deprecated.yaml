@@ -1,0 +1,45 @@
+openapi: 3.0.3
+info:
+  title: Deprecated Badge Test API
+  version: 1.0.0
+  description: Testing whether deprecated badge sticks after OAS re-upload
+servers:
+  - url: https://api.example.com/v1
+paths:
+  /deprecated-test-endpoint:
+    get:
+      summary: Test Deprecated Endpoint
+      description: This endpoint is marked as deprecated to test badge behavior
+      operationId: getDeprecatedTest
+      deprecated: true
+      tags:
+        - Deprecated Test
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: This endpoint is deprecated
+  /normal-endpoint:
+    get:
+      summary: Normal Endpoint (Control)
+      description: This endpoint is NOT deprecated - used as control
+      operationId: getNormalTest
+      tags:
+        - Deprecated Test
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: This endpoint works fine
