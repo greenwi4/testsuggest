@@ -9,9 +9,8 @@ paths:
   /deprecated-test-endpoint:
     get:
       summary: Test Deprecated Endpoint
-      description: This endpoint is marked as deprecated to test badge behavior
+      description: This endpoint is NO LONGER deprecated
       operationId: getDeprecatedTest
-      deprecated: true
       tags:
         - Deprecated Test
       responses:
