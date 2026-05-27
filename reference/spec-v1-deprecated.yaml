@@ -9,8 +9,9 @@ paths:
   /deprecated-test-endpoint:
     get:
       summary: Test Deprecated Endpoint
-      description: This endpoint is NO LONGER deprecated
+      description: This endpoint is explicitly NOT deprecated
       operationId: getDeprecatedTest
+      deprecated: false
       tags:
         - Deprecated Test
       responses:
