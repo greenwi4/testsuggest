@@ -13,6 +13,9 @@ next:
     - slug: without-descr
       title: without descr
       type: basic
+    - slug: with-descr
+      title: with descr
+      type: basic
 ---
 <br />
 
