@@ -1,5 +1,5 @@
 ---
-title: UPPER PareChild Page Onent Page
+title: UPPER Parent Page
 deprecated: false
 hidden: false
 metadata:
