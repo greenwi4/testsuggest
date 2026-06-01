@@ -2,7 +2,7 @@
 title: with descr
 excerpt: test repro branch merge 2
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   image: >-
     https://files.readme.io/e6f74c6bb9e9bb8bfbb000be843f455890bcd818b36b679aea2acb453162b375-Obi-partido-celular.png
