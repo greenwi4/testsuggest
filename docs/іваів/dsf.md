@@ -39,7 +39,7 @@ The following aren't supported:
 3. Switch the toggle from **Apply** to **Ignore**.
 
 
-<Image src="https://files.readme.io/378ff30a0438375cfadd708374a44628935b1946c93f25f405d6da2d7c53bb54-image1.png" alt="The External Changes tab on a query-level ranking rule, with the toggle set to Ignore for a global rule." align="center" caption="some test" border={true} />
+<Image src="https://files.readme.io/378ff30a0438375cfadd708374a44628935b1946c93f25f405d6da2d7c53bb54-image1.png" alt="The External Changes tab on a query-level ranking rule, with the toggle set to Ignore for a global rule." align="center" border={true} />
 
 
 <br />
