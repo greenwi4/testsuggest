@@ -8,3 +8,11 @@ metadata:
 \> 📘 **Mandatory Parameters**
 \>
 \> <RequiredStar legend />
+
+<br />
+
+> 📘 **Mandatory Parameters**
+>
+>  <RequiredStar legend />
+
+<br />
