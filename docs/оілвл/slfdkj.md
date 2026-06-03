@@ -13,7 +13,7 @@ Ask questions in **<Glossary>natural language</Glossary>**, run compliance check
 
 View the full list of <Anchor label="default and custom tools" target="_blank" href="/gql/docs/mcp-capabilities">default and custom tools</Anchor> currently available.
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={3}  
   layout="centered"  
   items={[  
@@ -48,7 +48,7 @@ View the full list of <Anchor label="default and custom tools" target="_blank" h
 
 If you open the MCP endpoint in a web browser you may see an `RBAC: access denied` message. This is expected because N-able MCP only accepts POST requests.
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={[  
     {  
@@ -86,7 +86,7 @@ If you open the MCP endpoint in a web browser you may see an `RBAC: access denie
 
 To connect <Glossary>N-able MCP</Glossary> to an <Glossary>AI tool</Glossary> or <Glossary>IDE</Glossary>, you need a valid <Glossary>API token</Glossary>. Tokens are tied to the <Glossary>N-able</Glossary> SSO user account that creates them, so the token only returns data that account has permission to see.
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={[  
     {  
@@ -179,7 +179,7 @@ Slash hygiene (common copy/paste issue):
 }
 ```
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={\[  
     {  
@@ -300,7 +300,7 @@ Once <Glossary>N-able MCP</Glossary> is configured properly:
 
 After verification, you can test the connection by asking:
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={\[  
     {  
@@ -354,7 +354,7 @@ This proves that:
 
 After the quick connection check, try a query that demonstrates an operational use case for <Glossary>MSP automation</Glossary>:
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={\[  
     {  
@@ -477,7 +477,7 @@ View the full list of <Anchor label="default and custom tools" target="_blank" h
 
 # Quiz Time
 
-\<ApexCards  
+<ApexCards  
   gridColsMd={1}  
   items={[  
   {  
