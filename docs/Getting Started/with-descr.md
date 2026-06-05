@@ -1,5 +1,5 @@
 ---
-title: with descr{
+title: with descr {user.bearer}
 excerpt: test repro branch merge 2
 deprecated: false
 hidden: true
