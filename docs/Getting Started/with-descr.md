@@ -17,7 +17,7 @@ next:
       title: with descr
       type: basic
 ---
-<br />
+# sdfsdfsdf {user.bearer}
 
 <HTMLBlock>{`
 https://placehold.co/320x120.png?text=Codex+No+Enter
