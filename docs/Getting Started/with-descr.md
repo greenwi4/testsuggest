@@ -1,5 +1,5 @@
 ---
-title: with descr
+title: with descr{
 excerpt: test repro branch merge 2
 deprecated: false
 hidden: true
@@ -145,6 +145,7 @@ dsfdsf
     </td>
   </tr>
 </table>
+
 ї
 
 ![](https://files.readme.io/6057f9159a239ff70ee08a512ae06dce8760135ea13ae67f279afedd3cef2e78-CleanShot_2026-05-11_at_10.45.042x.png)
@@ -153,4 +154,4 @@ dsfdsf
 
 ![](https://files.readme.io/7ca9c2802a22cd0c349edb03ac9e627539b89dbd9dc32921446d4d13836cb55b-Obi-partido-celular.png)
 
-<br />
+{user.bearer}
