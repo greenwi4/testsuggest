@@ -159,3 +159,5 @@ dsfdsf
 <br />
 
 [sdfvsdfvsdf](doc:#5-nested-in-numbered-list)
+
+[іваміваміва](doc:#7-wide-image-triggers-wide-image-branch)
