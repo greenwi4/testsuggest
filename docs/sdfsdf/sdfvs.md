@@ -12,5 +12,6 @@ metadata:
 </Accordion>
 
 <Accordion title="Show route capacity by instance size" icon="fa-table" iconColor="#1769aa">
+</Accordion>
 
 <br />
