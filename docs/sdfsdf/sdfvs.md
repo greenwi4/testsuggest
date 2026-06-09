@@ -11,4 +11,6 @@ metadata:
   occaecat cupidatat non proident!
 </Accordion>
 
+<Accordion title="Show route capacity by instance size" icon="fa-table" iconColor="#1769aa">
+
 <br />
