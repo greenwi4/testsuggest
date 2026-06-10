@@ -12,5 +12,3 @@ metadata:
 sdfvsdf
 
 &#x20;\---&#x20;
-
-serfwerf
